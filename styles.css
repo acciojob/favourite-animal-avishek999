@@ -1,2 +1,15 @@
+h1{
+	display:flex;
+	justify-content:center;
+}
 
-/* Your CSS Code here. */
+.animals_images{
+	display:grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+img{
+border-radius:100%;
+	object-fit:cover
+
+}
